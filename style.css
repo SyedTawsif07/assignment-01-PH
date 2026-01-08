@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Navigation Bar */
+
+.nav-container {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 30px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background-color: #30B868;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px;
+}
