@@ -242,4 +242,58 @@ body {
 
 .section-3-content button {
     margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+
+
+/* footer */
+footer {
+    background-color: #001931;
+    color: white;
+    padding-top: 90px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    padding: 40px 0;
+}
+
+.footer-content p {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.links li {
+    margin-right: 10px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 20px;
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+
+.copyright-text {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.copyright-text p {
+    font-size: 20px;
+    margin: 10px 0;
 }
